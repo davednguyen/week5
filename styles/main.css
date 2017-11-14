@@ -12,14 +12,16 @@
 body {
     background-color: darkblue;
     animation-name: backgroundcolor;
-    animation-duration: 5s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 
 
 h1,a {
   color: black;
   animation-name: fontcolors;
-  animation-duration: 5s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
   font-family: 'Vollkorn SC', serif;
   text-align: center;
 }
@@ -27,7 +29,8 @@ h1,a {
 p {
   color: black;
   animation-name: fontcolors;
-  animation-duration: 5s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
   font-family: 'Vollkorn SC', serif;
   text-align: center;
 }
