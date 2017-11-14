@@ -1,13 +1,33 @@
-body {
-  
+
+@keyframes backgroundcolor {
+    from {background-color:cornflowerblue;}
+    to {background-color:darkblue;}
 }
 
-h1 {
+@keyframes fontcolors{
+  from {color: black;}
+  to {color: white;}
+}
+
+body {
+    background-color: darkblue;
+    animation-name: backgroundcolor;
+    animation-duration: 5s;
+}
+
+
+h1,a {
+  color: black;
+  animation-name: fontcolors;
+  animation-duration: 5s;
   font-family: 'Vollkorn SC', serif;
   text-align: center;
 }
 
 p {
+  color: black;
+  animation-name: fontcolors;
+  animation-duration: 5s;
   font-family: 'Vollkorn SC', serif;
   text-align: center;
 }
