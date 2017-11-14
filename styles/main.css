@@ -4,8 +4,19 @@ body {
 
 h1 {
   font-family: 'Vollkorn SC', serif;
+  text-align: center;
 }
 
 p {
   font-family: 'Vollkorn SC', serif;
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  text-align: center;
 }
